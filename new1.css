@@ -1,0 +1,39 @@
+.home_menu{
+	float:left;	
+	margin-left:40px;
+	margin-top:3px;
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#head_man{
+	height:25px;
+	float:left;
+	width:380px;
+	margin-top:60px;
+	margin-left:70px;
+}
+
+.home_content{
+	width:1000px;
+	height:480px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.down_sys{
+	float: left;
+	margin-left: 200px;
+	margin-top: 60px;
+	cursor: pointer;
+	width: 225px;
+}
+
+#bodom_main{
+	margin-left:auto;
+	margin-right:auto;
+	white-space:nowrap;
+	text-align:center;
+}

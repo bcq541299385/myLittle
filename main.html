@@ -12,11 +12,13 @@ function validateForm() {
         return false;
     }
 }
-</script>
+function changetext(id){
+	id.innerHTML="Ooops!";
+}
 </script>
 </head>
 <body style="background-color: #ffffff;>
-<h1 onclick="this.innerHTML='Opppps!'">点我试试!</h1>
+	<h1 onclick="changetext(this)">点击文本!</h1>
 	<div style="background-image:url('images/1.jpg'); background-repeat:repeat; height:91px; width:100%">
 		<div style="width:260px; height:91px float:left"></div>
 		<img style="margin-top:10px ;margin-left:200px ;float: left;"src="images/logo.png"></img>
